@@ -9,7 +9,20 @@ public class PEOne
 	{
 
 		int answer = 0;
+
 		// Do things here
+		// 1. Loop through 1-1000
+		// 2. Check if divisible by 3 or 5
+		// 3. Add
+
+		for (int i = 1; i < 1000; i++)
+		{
+			if ((i % 3 == 0) || (i % 5 == 0))
+			{
+				answer += i;
+			}
+		}
+
 		System.out.println(answer);
 
 	}
